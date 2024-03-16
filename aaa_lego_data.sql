@@ -1006,7 +1006,7 @@ CREATE TABLE `aaalegodata` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `CategoryName` (`set_id`)
 ) ENGINE=MyISAM;
-LOAD DATA LOCAL INFILE "/home/selfridge/Downloads/lego_sets.csv" INTO TABLE aaalegodata COLUMNS TERMINATED BY ',' LINES TERMINATED BY '
+LOAD DATA LOCAL INFILE "/home/selfridge/Downloads/lego_sets.csv" INTO TABLE aaalegodata COLUMNS TERMINATED BY ',' LINES TERMINATED BY ' 
 ' IGNORE 1 LINES (set_id,name,year,theme,subtheme,themeGroup,category,pieces,minifigs,agerange_min,US_retailPrice,bricksetURL,thumbnailURL,imageURL);
 
 USE mgermano79;
