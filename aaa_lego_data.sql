@@ -1,5 +1,4 @@
 USE gdavis42;
-
 SET FOREIGN_KEY_CHECKS=0;
 -- ----------------------------
 -- Table structure for `categories`
